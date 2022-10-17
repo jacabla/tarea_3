@@ -1,27 +1,17 @@
-# Tarea3
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Descripción
+Realice una página en angular con mínimo 3 “pantallas” las cuales me servirán para mostrar
+información de diferentes tipo
+Una de las pantallas debe servir como Home que me debe explicar que es el proyecto
+Otra de las pantallas debe servir como About sobre la empresa y su información de contacto
+Y la última debe ser una pantalla con información del programador o programadora y con una
+imagen a gusto de la persona y con un descripción de los lenguajes que esta persona sabe.
+Además de esto debe existir la funcionalidad de ocultar la imagen previa al darle click en la imagen y
+volver a mostrar si le vuelvo a dar click
+Además de todo lo anterior la página debe tener un navbar que sea compartido entre todas las
+pantallas para poder tener una navegación idónea
+Requerimientos Tecnicos
+● Hacer uso de Angular
+● Crear como mínimo 3 componentes
+● Hacer uso de las directivas ngIf y ngFor como minimo 1 vez
+● Hacer uso de las rutas y componentes padres e hijos
+● Hacer uso de interpolación y event-biding
