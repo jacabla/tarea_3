@@ -1,0 +1,16 @@
+.main_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #2d84c2;
+}
+
+.main_item{
+    color: antiquewhite;
+}
+
+.main_item:hover{
+    color: rgb(17, 52, 117);
+    text-decoration: underline;
+    /* text-decoration: overline; */
+}
