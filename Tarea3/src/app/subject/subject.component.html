@@ -1,14 +1,16 @@
-<div *ngFor="let item of Subject">
-    <h4 *ngIf="item">{{item.titulo}}</h4>
-    <h5 *ngIf="item"> {{item.detalle}}</h5>
-    <p *ngIf="item"> {{item.lenguajes}}</p>
-    <p *ngIf="item">{{item.frameworks}}</p>
-    <p *ngIf="item"> {{item.librerias}}</p>
-</div>
-<div *ngFor="let item of Subject" id="imagen">
-    <img *ngIf="element==true" [src]="item.imagen" alt="imagen">
-</div>
-<div>
-    <button *ngIf="element==true" (click)="imagen()">Ocultar imagen</button>
-    <button *ngIf="element==false" (click)="imagenM()">Mostrar imagen</button>
+<div class="main">
+    <div class="main_div" *ngFor="let item of Subject">
+        <h4 *ngIf="item">Nombre: {{item.titulo}}.</h4>
+        <h5 *ngIf="item"> {{item.detalle}}</h5>
+        <p *ngIf="item">Lenguajes de programacion: {{item.lenguajes}}.</p>
+        <p *ngIf="item">Frameworks: {{item.frameworks}}.</p>
+        <p *ngIf="item"> Librerias: {{item.librerias}}.</p>
+    </div>
+    <div type="button" class="btn btn-warning">
+        <button *ngIf="element==true" (click)="imagen()">Ocultar imagen</button>
+        <button *ngIf="element==false" (click)="imagenM()">Mostrar imagen</button>
+    </div>
+    <div class="imagen" *ngFor="let item of Subject" id="imagen">
+        <img *ngIf="element==true" [src]="item.imagen" alt="imagen">
+    </div>
 </div>

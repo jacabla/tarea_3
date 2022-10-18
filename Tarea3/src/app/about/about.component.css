@@ -1,0 +1,15 @@
+img{
+    max-width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h5{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}

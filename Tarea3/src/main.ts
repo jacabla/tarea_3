@@ -23,7 +23,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
   export const subject = [
     {
-      imagen: "assets/1.png",
+      imagen: "assets/jason.JPG",
       titulo: "Jason Castro Blanco",
       detalle: "Programador front-end, con miras a convertirme en desarrollador Full Stack.",
       lenguajes: ["Java Script", " Pyhton", " JAVA"],
