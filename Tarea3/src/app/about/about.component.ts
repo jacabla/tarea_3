@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  enviar(){
+    alert("Datos de contacto enviados!")
+  }
+
   constructor() { }
 
   ngOnInit(): void {
